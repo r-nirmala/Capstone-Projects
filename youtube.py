@@ -188,7 +188,7 @@ if choice == "Data collection and uploading to MongoDB":
     st.subheader(':red[Load Channel data to MongoDB]')
     st.markdown("##    ")
     st.write("##### :green[Enter the YouTube Channel ID]")
-    ch_id = st.text_input("### Get Channel ID from channel Page").split(',')
+    ch_id = st.text_input("### Get Channel ID from channel Page")
     st.markdown("## ")
     if st.button("### :orange[Upload to MongoDB]"):
         with st.spinner('Please Wait for it...'): 
